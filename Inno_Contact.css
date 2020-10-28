@@ -1,0 +1,261 @@
+.banner-area {
+  background-image: url(3.jpg);
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 140vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 0px 60px;
+  padding-left: 0px;
+}
+
+.menu {
+  width: 72%;
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+  display: block;
+}
+
+.menu li {
+  width: 120px;
+  height: : 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  float: left;
+  margin-top: 50px;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.contact_info {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.contact_info h1 {
+  font-size: 40px;
+}
+
+.contact_info p {
+  font-size: 17px;
+}
+
+.contact_info img {
+  width: 50px;
+  height: 50px;
+  padding-left: 10px;
+}
+
+.responsiv_choice a {
+  text-decoration: none;
+  border-radius: 1px;
+  border: solid black;
+  font-size: 17px;
+  padding: 10px 35px;
+  color: #000;
+  margin-top: 5%;
+  width: 110px;
+  text-transform: uppercase;
+  display: none;
+}
+
+/*Responsiv css */
+@media screen and (max-width:1441px) and (min-width:1281px) {
+  /* Setter en min width slik at den ikke skal overskjøre den koden over som funker for 1280px */
+  .menu {
+    margin-top: 60px;
+    width: 75%;
+  }
+
+  .menu li {
+    font-size: 19px;
+    width: 150px;
+  }
+
+  .contact_info {
+    width: 800px;
+    top: 65%;
+  }
+
+  .contact_info h1 {
+    font-size: 50px;
+  }
+
+  .contact_info p {
+    font-size: 20px;
+  }
+
+  .contact_info img {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media screen and (max-width:1025px){
+  .menu {
+    margin-top: 40px;
+    width: 78%;
+  }
+
+  .menu li {
+    font-size: 14px;
+    width: 110px;
+  }
+
+  .contact_info {
+    width: 750px;
+  }
+
+  .contact_info h1 {
+    font-size: 40px;
+  }
+
+  .contact_info p {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 768px){
+  .menu {
+    margin-top: 10px;
+    width: 77%;
+  }
+
+  .menu li {
+    font-size: 11px;
+    width: 80px;
+  }
+
+  .contact_info {
+    width: 350px;
+  }
+
+  .contact_info h1 {
+    font-size: 30px;
+  }
+
+  .contact_info p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 576px)  {
+  .banner-area {
+    height: 155vh;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .contact_info {
+    top: 73%;
+    width: 350px;
+  }
+
+  .contact_info h1 {
+    font-size: 25px;
+  }
+
+  .contact_info p {
+    font-size: 13px;
+  }
+
+  .contact_info img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .responsiv_choice a {
+    display: inline-block;
+    font-size: 13px;
+    width: 90px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .banner-area {
+    height: 155vh;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .contact_info {
+    top: 74%;
+    width: 300px;
+  }
+
+  .contact_info h1 {
+    font-size: 25px;
+  }
+
+  .contact_info p {
+    font-size: 13px;
+  }
+
+  .contact_info img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .responsiv_choice a {
+    display: inline-block;
+    font-size: 12px;
+    width: 80px;
+    padding: 10px;
+    30px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .banner-area {
+    height: 155vh;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .contact_info {
+    top: 74%;
+    width: 300px;
+  }
+
+  .contact_info h1 {
+    font-size: 25px;
+  }
+
+  .contact_info p {
+    font-size: 13px;
+  }
+
+  .contact_info img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .responsiv_choice a {
+    display: inline-block;
+    font-size: 12px;
+    width: 80px;
+    padding: 10px;
+    30px;
+  }
+}

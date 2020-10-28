@@ -1,0 +1,296 @@
+.banner-area {
+  background-image: url(3.jpg);
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 170vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 0px 60px;
+  padding-left: 11px;
+}
+
+.menu {
+  width: 72%;
+  float: right;
+  list-style: none;
+  margin-top: 65px;
+}
+
+.menu li {
+  width: 120px;
+  height: : 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  float: left;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.banner-text {
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 800px;
+}
+
+.responsiv_choice a {
+  text-decoration: none;
+  border-radius: 1px;
+  border: solid black;
+  font-size: 17px;
+  padding: 10px 35px;
+  color: #000;
+  margin-top: 5%;
+  width: 110px;
+  text-transform: uppercase;
+  display: none;
+}
+
+/* Responsiv css */
+@media screen and (max-width:1441px) and (min-width: 1281px) {
+
+  /* Setter en min width slik at den ikke skal overskjøre den koden over som funker for 1280px */
+  .banner-area {
+    height: 190vh;
+  }
+
+  .menu {
+    margin-top: 100px;
+    width: 78%;
+  }
+
+  .menu li {
+    font-size: 22px;
+    width: 170px;
+  }
+
+  .banner-text {
+    width: 1100px;
+    top: 95%;
+  }
+
+  .banner-text h1 {
+    font-size: 50px;
+  }
+
+  .banner-text p {
+    font-size: 25px;
+  }
+
+  .banner-text h3 {
+    font-size: 25px;
+  }
+
+  .banner-text li {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:1025px) {
+  .banner-area {
+    height: 200vh;
+  }
+
+  .menu {
+    margin-top: 100px;
+    width: 74%;
+  }
+
+  .menu li {
+    font-size: 14px;
+    width: 100px;
+  }
+
+  .banner-text {
+    width: 700px;
+    top: 105%;
+  }
+
+  .banner-text h1 {
+    font-size: 37px;
+  }
+
+  .banner-text p {
+    font-size: 18px;
+  }
+
+  .banner-text h3 {
+    font-size: 18px;
+  }
+
+  .banner-text li {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner-area {
+    height: 200vh;
+  }
+
+  .menu {
+    margin-top: 60px;
+    width: 78%;
+  }
+
+  .menu li {
+    font-size: 11px;
+    width: 80px;
+  }
+
+  .banner-text {
+    top: 100%;
+    width: 550px;
+  }
+
+  .banner-text h1 {
+    font-size: 27px;
+  }
+
+  .banner-text p {
+    font-size: 15px;
+  }
+
+  .banner-text h3 {
+    font-size: 15px;
+  }
+
+  .banner-text li {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .banner-area {
+    background-image: url(4.jpg);
+    height: 250vh;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .banner-text {
+    top: 120%;
+    width: 350px;
+  }
+
+  .banner-text h1 {
+    font-size: 25px;
+  }
+
+  .banner-text p {
+    margin-top: 0;
+    font-size: 14px;
+  }
+
+  .banner-text h3 {
+    font-size: 14px;
+  }
+
+  .banner-text li {
+    font-size: 14px;
+  }
+
+  .banner-text a {
+    display: inline-block;
+    font-size: 13px;
+    width: 90px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .banner-area {
+    background-image: url(4.jpg);
+    height: 270vh;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .banner-text {
+    top: 135%;
+    width: 300px;
+  }
+
+  .banner-text h1 {
+    font-size: 25px;
+  }
+
+  .banner-text p {
+    font-size: 14px;
+  }
+
+  .banner-text h3 {
+    font-size: 14px;
+  }
+
+  .banner-text li {
+    font-size: 14px;
+  }
+
+  .banner-text a {
+    display: inline-block;
+    font-size: 12px;
+    width: 90px;
+    padding: 10px;
+    35px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .banner-area {
+    background-image: url(4.jpg);
+    height: 265vh;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .banner-text {
+    top: 130%;
+    width: 250px;
+  }
+
+  .banner-text h1 {
+    font-size: 25px;
+  }
+
+  .banner-text p {
+    font-size: 13px;
+  }
+
+  .banner-text h3 {
+    font-size: 13px;
+  }
+
+  .banner-text li {
+    font-size: 13px;
+  }
+
+  .banner-text a {
+    display: inline-block;
+    font-size: 11px;
+    width: 70px;
+    padding: 10px;
+    30px;
+  }
+}
