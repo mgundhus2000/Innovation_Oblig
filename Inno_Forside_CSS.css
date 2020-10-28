@@ -1,0 +1,182 @@
+.banner-area {
+  background-image: url(3.jpg);
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 0px 60px;
+  padding-left: 11px;
+}
+
+.menu {
+  width: 69%;
+  float: right;
+  list-style: none;
+}
+
+.menu li {
+  width: 100px;
+  height: : 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #000;
+  font-size: 13px;
+  float: left;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.logo {
+  text-decoration: none;
+  border-style: solid;
+  color: #000;
+  font-size: 30px;
+  margin-top: 17px;
+  width: auto;
+  padding: 5px;
+  float: left;
+  display: block;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.banner-text h2 {
+  font-family: baloo;
+  margin: 0;
+  font-size: 55px;
+  color: #000;
+  ;
+}
+
+.banner-text p {
+  font-size: 22px;
+  color: #000;
+  margin: 0;
+}
+
+.banner-text a {
+  text-decoration: none;
+  border-radius: 1px;
+  border: solid black;
+  font-size: 17px;
+  padding: 10px 35px;
+  color: #000;
+  display: inline-block;
+  margin-top: 5%;
+  width: 110px;
+  text-transform: uppercase
+}
+
+.responsiv_choice {
+  display: none;
+}
+
+/* Responsiv css */
+@media screen and (max-width:320px) {
+  .logo {
+    display: none;
+  }
+
+  .banner-text h2 {
+    font-size: 37px;
+  }
+
+  .banner-text p {
+    font-size: 16px;
+    margin: 10px 0px;
+  }
+
+  .banner-text a {
+    font-size: 12px;
+    width: 80px;
+  }
+}
+
+@media screen and (max-width:376px) {
+  .logo {
+    display: none;
+  }
+
+  .banner-text h2 {
+    font-size: 40px;
+  }
+
+  .banner-text p {
+    font-size: 19px;
+    margin: 10px 0px;
+  }
+
+  .banner-text a {
+    font-size: 15px;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width:426px) {
+  .logo {
+    display: none;
+  }
+
+  .banner-text h2 {
+    font-size: 40px;
+  }
+
+  .banner-text p {
+    font-size: 19px;
+    margin: 10px 0px;
+  }
+
+  .banner-text a {
+    font-size: 15px;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .logo {
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .responsiv_choice {
+    display: block;
+  }
+}
+
+@media screen and (max-width:1025px) {
+  .menu {
+    margin-top: 60px;
+    width: 72%
+  }
+
+  .logo {
+    display: none;
+  }
+
+  header {
+    padding-left: 7px;
+  }
+}

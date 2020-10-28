@@ -1,0 +1,283 @@
+.banner-area {
+  background-image: url(3.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 140vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 0px 60px;
+  padding-left: 11px;
+}
+
+.menu {
+  width: 69%;
+  float: right;
+  list-style: none;
+  margin-top: 60px;
+}
+
+.menu li {
+  width: 100px;
+  height: : 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #000;
+  font-size: 13px;
+  float: left;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.banner-text {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.banner-text p {
+  margin-top: 30px;
+}
+
+.banner-text a {
+  text-decoration: none;
+  border-radius: 1px;
+  border: solid black;
+  font-size: 17px;
+  padding: 10px 35px;
+  color: #000;
+  margin-top: 5%;
+  width: 110px;
+  text-transform: uppercase;
+  display: none;
+}
+
+/*Responsiv css */
+@media screen and (max-width:1441px) and (min-width: 1281px) {
+
+  /* Setter en min width slik at den ikke skal overskjøre den koden over som funker for 1280px */
+  .menu {
+    margin-top: 80px;
+    width: 75%;
+  }
+
+  .menu li {
+    font-size: 19px;
+    width: 150px;
+  }
+
+  .banner-text {
+    width: 700px;
+    top: 65%;
+  }
+
+  .banner-text h1 {
+    font-size: 50px;
+  }
+
+  .banner-text p {
+    font-size: 25px;
+  }
+
+  .banner-text h3 {
+    font-size: 25px;
+  }
+
+  .banner-text li {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:1025px) {
+  .menu {
+    margin-top: 80px;
+    width: 80%;
+  }
+
+  .menu li {
+    font-size: 16px;
+    width: 120px;
+  }
+
+  .banner-text {
+    width: 700px;
+    top: 65%;
+  }
+
+  .banner-text h1 {
+    font-size: 45px;
+  }
+
+  .banner-text p {
+    font-size: 22px;
+  }
+
+  .banner-text h3 {
+    font-size: 22px;
+  }
+
+  .banner-text li {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    margin-top: 50px;
+    width: 77%;
+  }
+
+  .menu li {
+    font-size: 11px;
+    width: 78px;
+  }
+
+  .banner-text {
+    top: 65%;
+    width: 550px;
+  }
+
+  .banner-text h1 {
+    font-size: 30px;
+  }
+
+  .banner-text p {
+    font-size: 16px;
+  }
+
+  .banner-text h3 {
+    font-size: 16px;
+  }
+
+  .banner-text li {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .banner-area {
+    height: 155vh;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .banner-text {
+    top: 73%;
+    width: 350px;
+  }
+
+  .banner-text h1 {
+    font-size: 25px;
+  }
+
+  .banner-text p {
+    margin-top: 0;
+    font-size: 14px;
+  }
+
+  .banner-text h3 {
+    font-size: 14px;
+  }
+
+  .banner-text li {
+    font-size: 14px;
+  }
+
+  .banner-text a {
+    display: inline-block;
+    font-size: 13px;
+    width: 90px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .banner-area {
+    height: 165vh;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .banner-text {
+    top: 78%;
+    width: 300px;
+  }
+
+  .banner-text h1 {
+    font-size: 25px;
+  }
+
+  .banner-text p {
+    font-size: 14px;
+  }
+
+  .banner-text h3 {
+    font-size: 14px;
+  }
+
+  .banner-text li {
+    font-size: 14px;
+  }
+
+  .banner-text a {
+    display: inline-block;
+    font-size: 12px;
+    width: 90px;
+    padding: 10px;
+    35px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .banner-area {
+    height: 165vh;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .banner-text {
+    top: 78%;
+    width: 250px;
+  }
+
+  .banner-text h1 {
+    font-size: 25px;
+  }
+
+  .banner-text p {
+    font-size: 13px;
+  }
+
+  .banner-text h3 {
+    font-size: 14px;
+  }
+
+  .banner-text li {
+    font-size: 14px;
+  }
+
+  .banner-text a {
+    display: inline-block;
+    font-size: 12px;
+    width: 80px;
+    padding: 10px;
+    30px;
+  }
+}
